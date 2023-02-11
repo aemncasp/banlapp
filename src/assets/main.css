@@ -1,0 +1,54 @@
+@import './base.css';
+
+.btn {
+    min-width: 75px;
+}
+
+.btn:not([disable]):hover {
+    color: #111;
+    background-color: #ffec24;
+    border-color: #ecda1b;
+}
+
+.btn-ellipse {
+    min-width: 75px;
+    font-size: 1.017rem;
+    border-radius: 18px;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    line-height: 1.35rem;
+}
+
+.btn-circle {
+    min-width: 29px;
+    font-size: .875rem;
+    border-radius: 50%;
+    padding: .25rem .4rem;
+    line-height: .5;
+    width: 29px;
+    height: 29px;
+}
+
+.btn-cdg-primary {
+    color: #fff;
+    background-color: #333377;
+    border-color: #0202a0;
+}
+
+.btn-cdg-secondary {
+    color: #ffffff;
+    background-color: #5A6268;
+    border-color: #5A6268;
+}
+
+.btn-cdg-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-cdg-warning {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
